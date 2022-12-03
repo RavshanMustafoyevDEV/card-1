@@ -1,0 +1,126 @@
+// Fonts import
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    background: #2525259c;
+}
+
+
+.page{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 40px 0;
+    height: 40vw;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    .text-page{
+        display: block;
+        padding: 0px 20px;
+
+        .header-page{
+            font-weight: 400;
+            font-size: 45px;
+        }
+
+        .para-page p {
+            font-weight: 500;
+            letter-spacing: 0px;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+
+        .btns-page{
+            display: block;
+            align-items: center;
+            width: 90%;
+
+            .btn{
+                width: 100%;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                border: 1px solid rgb(228, 228, 228);
+                border-radius: 5px;
+                margin: 20px 0;
+                padding: 5px;
+                transition: 0.4s all;
+
+                .google{
+                    color: rgb(158, 0, 0);
+                }
+                .facebook{
+                    color: darkblue;
+                }
+                .twitter{
+                    color: lightseagreen;
+                }
+
+                .text-btn{
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.5);
+                    margin-left: 30%;
+                }
+
+                i{
+                   font-size: 32px;
+                   margin: 5px;
+                }
+
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+
+        .footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 80px;
+            width: 90%;
+
+            .para-foo p{
+                font-size: 13px;
+                font-weight: 600;
+                
+            }
+        }
+    }
+}
+
+
+
+.img-page img{
+    width: 400px;
+    height: auto;
+}
+
+.text-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.4s all;
+
+    &:hover{
+        cursor: pointer;
+        color: #000;
+    }
+}
+
+
+
