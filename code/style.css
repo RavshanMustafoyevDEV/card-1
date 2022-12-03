@@ -23,7 +23,7 @@ body {
 }
 .page .text-page {
   display: block;
-  padding: 0px 20px;
+  padding: 0px 60px;
 }
 .page .text-page .header-page {
   font-weight: 400;
@@ -38,7 +38,7 @@ body {
 .page .text-page .btns-page {
   display: block;
   align-items: center;
-  width: 90%;
+  width: 100%;
 }
 .page .text-page .btns-page .btn {
   width: 100%;
@@ -61,7 +61,7 @@ body {
   color: lightseagreen;
 }
 .page .text-page .btns-page .btn .text-btn {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
   margin-left: 30%;
@@ -79,7 +79,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-top: 80px;
-  width: 90%;
+  width: 100%;
 }
 .page .text-page .footer .para-foo p {
   font-size: 13px;
